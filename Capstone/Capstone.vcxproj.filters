@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SQM Sources">
+      <UniqueIdentifier>{672fabdf-511b-4ed4-b52f-8921bf70e9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SQM Headers">
+      <UniqueIdentifier>{eef6ecec-3b60-4643-95d4-0dacb8d32359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility Headers">
+      <UniqueIdentifier>{c83b1154-5f48-4e44-a0c2-8dcd854204cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility Sources">
+      <UniqueIdentifier>{2481bae6-8922-43c2-b2bb-ee7d3ed461b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SQMDay.cpp">
+      <Filter>Source Files\SQM Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SQMAnalytics.cpp">
+      <Filter>Source Files\SQM Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SQMData.cpp">
+      <Filter>Source Files\SQM Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SQMDataRow.cpp">
+      <Filter>Source Files\SQM Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SQMDateTime.cpp">
+      <Filter>Source Files\SQM Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphWindow.cpp">
+      <Filter>Source Files\Utility Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\Utility Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveGraph.cpp">
+      <Filter>Source Files\Utility Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SQMGraph.cpp">
+      <Filter>Source Files\SQM Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleButton.cpp">
+      <Filter>Source Files\Utility Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSFML.cpp">
+      <Filter>Source Files\Utility Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SQMAnalytics.h">
+      <Filter>Header Files\SQM Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SQMData.h">
+      <Filter>Header Files\SQM Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SQMDataRow.h">
+      <Filter>Header Files\SQM Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SQMDateTime.h">
+      <Filter>Header Files\SQM Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SQMDay.h">
+      <Filter>Header Files\SQM Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\Utility Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphWindow.h">
+      <Filter>Header Files\Utility Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveGraph.h">
+      <Filter>Header Files\Utility Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SQMGraph.h">
+      <Filter>Header Files\SQM Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleButton.h">
+      <Filter>Header Files\Utility Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSFML.h">
+      <Filter>Header Files\Utility Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
